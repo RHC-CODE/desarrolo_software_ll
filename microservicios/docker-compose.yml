@@ -1,0 +1,13 @@
+version: "3"
+services:
+  producto-service:
+    build: ./producto-service
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./producto-service/data:/app/data
+
+  calculo-service:
+    build: ./calculo-service
+    ports:
+      - "4000:4000"
