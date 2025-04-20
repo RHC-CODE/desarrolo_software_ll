@@ -6,8 +6,16 @@ services:
       - "3000:3000"
     volumes:
       - ./producto-service/data:/app/data
+    networks:
+      - microservicios-net
 
   calculo-service:
     build: ./calculo-service
     ports:
       - "4000:4000"
+    networks:
+      - microservicios-net
+
+networks:
+  microservicios-net:
+    driver: bridge
