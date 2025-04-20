@@ -1,0 +1,30 @@
+[
+  {
+    "codigo": "P001",
+    "nombre": "Teclado Mecánico RGB",
+    "precio": 120,
+    "cantidad": 5,
+    "valorTotal": 600
+  },
+  {
+    "codigo": "P002",
+    "nombre": "Mouse Inalámbrico Logitech",
+    "precio": 1000,
+    "cantidad": 4,
+    "valorTotal": 4000
+  },
+  {
+    "codigo": "P003",
+    "nombre": "Monitor LED 27 pulgadas",
+    "precio": 300,
+    "cantidad": 2,
+    "valorTotal": 600
+  },
+  {
+    "codigo": "P004",
+    "nombre": "teclado",
+    "precio": 5000,
+    "cantidad": 4,
+    "valorTotal": 20000
+  }
+]
